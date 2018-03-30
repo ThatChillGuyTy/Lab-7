@@ -8,9 +8,9 @@
 
 .actor  { position: absolute;  }
 .player { background: rgb(64, 64, 64); }
-.coin { background: rgb(255,215,0);
-        background-image: url("https://image.tutpad.com/tut/0/53/11_MONEDA.gif");
-        background-size: auto;
+.coin {
+        background-image: url("https://mobilegamegraphics.com/wp-content/uploads/2015/06/coin1.gif");
+        background-size: 17px 17px;
       }
 
 .game {

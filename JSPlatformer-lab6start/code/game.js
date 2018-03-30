@@ -246,6 +246,14 @@ Player.prototype.moveX = function(step, level, keys) {
   //Move if there's not a wall there
   if (obstacle!="wall")
   this.pos = newPos;
+
+  if(obstacle && obstacle!="floater"){
+    if (keys.up && this.speed.y > 0)
+      this.speed.y = -jumpSpeed;
+      else {
+        this.speed.y = 0;
+      }
+    }
 };
 
 var gravity = 55;
